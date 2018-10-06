@@ -164,3 +164,28 @@ type iOSUIKitTall = {
 
 [@bs.module "react-native-typography"]
 external iOSUIKitTall : iOSUIKitTall = "iOSUIKitTall";
+
+type systemWeights = {
+  .
+  "thin": BsReactNative.Style.t,
+  "light": BsReactNative.Style.t,
+  "regular": BsReactNative.Style.t,
+  "semibold": BsReactNative.Style.t,
+  "bold": BsReactNative.Style.t
+};
+
+[@bs.module "react-native-typography"]
+external systemWeights : systemWeights = "systemWeights";
+
+type sanFranciscoWeights = {
+  .
+  "thin": BsReactNative.Style.t,
+  "ultralight": BsReactNative.Style.t,
+  "light": BsReactNative.Style.t,
+  "regular": BsReactNative.Style.t,
+  "medium": BsReactNative.Style.t,
+  "semibold": BsReactNative.Style.t,
+  "bold": BsReactNative.Style.t,
+  "heavy": BsReactNative.Style.t,
+  "black": BsReactNative.Style.t
+};

@@ -1,6 +1,10 @@
 {
   "name": "bs-react-native-typography",
+  "reason": {"react-jsx": 2},
   "bsc-flags": [ "-bs-super-errors" ],
+  "bs-dependencies": [
+    "bs-react-native"
+  ],
   "sources": [{
     "dir": "src"
   }],

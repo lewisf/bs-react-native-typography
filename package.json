@@ -1,6 +1,6 @@
 {
   "name": "@lewisf/bs-react-native-typography",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "BuckleScript bindings for React Native Typography",
   "main": "lib/js/src/TypographyRe.js",
   "author": "Peter Piekarczyk <peter@peterp.me>",
@@ -20,11 +20,10 @@
     "prepublish": "yarn run clean && yarn run build"
   },
   "peerDependencies": {
-    "bs-react-native": "^0.5.0",
-    "react-native-typography": "^1.3.0"
-  },
-  "dependencies": {
     "bs-react-native": "^0.10.0",
     "reason-react": "^0.5.3"
+  },
+  "dependencies": {
+    "react-native-typography": "^1.3.0"
   }
 }

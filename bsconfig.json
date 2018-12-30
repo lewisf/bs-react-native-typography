@@ -1,12 +1,12 @@
 {
-  "name": "bs-react-native-typography",
+  "name": "@lewisf/bs-react-native-typography",
   "reason": {"react-jsx": 2},
-  "bsc-flags": [ "-bs-super-errors" ],
-  "bs-dependencies": [
-    "bs-react-native"
+  "bsc-flags": ["-bs-super-errors"],
+  "bs-dependencies": ["bs-react-native"],
+  "sources": [
+    {
+      "dir": "src"
+    }
   ],
-  "sources": [{
-    "dir": "src"
-  }],
   "refmt": 3
 }

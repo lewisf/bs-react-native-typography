@@ -1,6 +1,6 @@
 {
   "name": "bs-react-native-typography",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "BuckleScript bindings for React Native Typography",
   "main": "lib/js/src/TypographyRe.js",
   "contributors": [

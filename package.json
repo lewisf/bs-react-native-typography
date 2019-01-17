@@ -1,9 +1,12 @@
 {
-  "name": "@lewisf/bs-react-native-typography",
-  "version": "0.1.2",
+  "name": "bs-react-native-typography",
+  "version": "0.1.0",
   "description": "BuckleScript bindings for React Native Typography",
   "main": "lib/js/src/TypographyRe.js",
-  "author": "Peter Piekarczyk <peter@peterp.me>",
+  "contributors": [
+    "Peter Piekarczyk <peter@peterp.me>",
+    "Lewis Chung <lewis.f.chung@gmail.com>"
+  ],
   "license": "MIT",
   "keywords": [
     "reason",

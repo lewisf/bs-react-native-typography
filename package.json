@@ -1,6 +1,6 @@
 {
   "name": "bs-react-native-typography",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "BuckleScript bindings for React Native Typography",
   "main": "lib/js/src/TypographyRe.js",
   "contributors": [
@@ -15,12 +15,15 @@
     "react-native",
     "typography"
   ],
-  "devDependencies": {},
   "scripts": {
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "prepublish": "yarn run clean && yarn run build"
+    "install::dev": "yarn && install-self-peers -- --ignore-scripts",
+    "pub": "npx np --yolo"
+  },
+  "devDependencies": {
+    "@team-griffin/install-self-peers": "^1.1.1"
   },
   "peerDependencies": {
     "bs-react-native": "^0.10.0",
